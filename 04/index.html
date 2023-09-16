@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout</title>
     <link rel="stysheet" type="text/css" href="css/Mystyle.css"/>
     <style type="text/css">
         @font-face{
             font-family:'QuicksandBook';
             src: url('fonts/Quicksand_Book-webfont.eot');
-            src: url('fonts/Quicksand_Book-webfont.eot?#iefix')format('embedded-opentype'),
+            src: url('fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
             url('fonts/Quicksand_Book-webfont.woff') format('woff'),
             url('fonts/Quicksand_Book-webfont.ttf') format('truetype'),
             url('fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
@@ -18,8 +16,8 @@
         }
         body{
             color:#ffffff;
-            background: #413f3b url("img/bg.jpg");
-            font-family:Georgia,"Time New Roman", Times, serif;
+            background: #413f3b url("images/bg.jpg");
+            font-family:Georgia, "Time New Roman", Times, serif;
             font-size:90%;
             margin:0px;
             text-align: center;
@@ -43,39 +41,21 @@
         }
         .nav{
             float: right;
-            font-family:QuicksandBook,Helvetica,Arial,sans-serif;
-            padding: 45px 0px 0px 0px;
+            font-family:QuicksandBook, Helvetica, Arial, sans-serif;
+            margin: 50px 280px 55px 0px;
             text-align:right;
-        }
-        a:hover {
-            color:#ffffff;
-        }
-        .header{
-            background-image: url("images/bg-header.jpg");
-            padding: 0px 0px 0px 0px;
-            height: 100px;
-            position:fixed;
-            top: 0px;
-            width:100%;
-            z-index: 50;
-        }
-        .nav {
-            float: right;
-            font-family: QuicksandBook, Helvetica, Arial, sans-serif;
-            padding: 45px 0px 0px 0px;
-            text-align: right;
         }
         .wrapper{
             width: 960px;
             margin: 0px auto;
-            background-image: url("image/bg-triangle.png");
+            background-image: url("images/bg-triangle.png");
             background-repeat: no-repeat;
-            background-position: 0px 0px;
-            text-align: left;/* căn lề văn bản*/
+            background-position: -34px -13px;
+            text-align: right;/* căn lề văn bản*/
 
         }
         .logo{
-            margin-bottom: 20px;
+            margin: 0px 0px 20px -54px;
         }
         h1,
         h2{
@@ -86,7 +66,7 @@
         }
         h1{
             font-size: 240%;
-            margin-top:140px;
+            margin-top: 126px;
         }
         .date{
             font-family: Arial,Helvetica, sans-serif;
@@ -95,9 +75,9 @@
 
         }
         .main-story{
-            background-image: url("images/trilangles.png");
+            background-image: url("images/triangles.png");
             background-repeat: no-repeat;
-            background-position: 122px 142px;
+            background-position: 89px 130px;
             height: 570px;
         }
         .more-articles{
@@ -124,28 +104,28 @@
 
         }
         .footer a{
-            color:#807c82;
+            color:#807c72;
         }
     </style>
-</head>
+    </head>
     <body>
         <div class="header">
             <div class="container_12">
                 <div class="grid_5">
-                    <img src="images/logo.png" alt="Pedal faster-The modern bicycle magazine" width="216" height="37" class="logo" />
+                    <img src="images/logo.png" alt="Pedal faster-The modern bicycle magazine" width="216" height="37" class="logo"/>
+                    <div class="nav grid_7">
+                        <a href="">home</a> / <a href="">news</a> / <a href="">archives</a> / <a href="">about</a> / <a href="">contact</a>
+                    </div>
                     <img src="images/header-triangle.png" alt="" width="116" height="100" />
-                </div>
-                <div class="nav grid_7">
-                    <a href="">home</a> / <a href="">news</a> / <a href="">archives</a> / <a href="">about</a> / <a href="">contact</a>
                 </div>
             </div>
         </div>
         <div class="wrapper">
             <div class="main-story container_12">
-                <div class="grid_6 push_6">
-                    <h1><a href="">fixed Gear Forever</a></h1>
-                </div>
                 <div class="intro grid_3 push_9">
+                    <div class="grid_6 push_6">
+                        <h1><a href="">fixed Gear Forever</a></h1>
+                    </div>
                     <p class="date">16APRIL 2011</p>
                     <p>The veloheld combines minimalist design with supreb quality.Devoid of excessive graphics and gear shift components,
                         the veloheld product range delights us with its beauty and simplicity.The black and white(yin and yang?) bicycles
